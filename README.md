@@ -12,11 +12,15 @@ We load in this skeleton.
 git pull https://github.com/jeroendesloovere/package-skeleton-bundle.git
 ```
 
-Then we **find - replace by** the following
+Then we **find - replace by** the following in the entire folder:
 
 ```
 # namespace
 JeroenDesloovere => YourOwnNamespace
+
+# CamelCased class name
 Skeleton => YourClassName
+
+# lowercased class name
 skeleton => yourclassname
 ```
